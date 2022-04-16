@@ -20,8 +20,8 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@component": [
-        "component/*"
+      "@components": [
+        "components/*"
       ],
       "@styles": [
         "styles/*"
