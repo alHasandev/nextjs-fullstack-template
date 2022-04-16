@@ -20,16 +20,16 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components": [
+      "@components/*": [
         "components/*"
       ],
-      "@styles": [
+      "@styles/*": [
         "styles/*"
       ],
-      "@public": [
+      "@public/*": [
         "public/*"
       ],
-      "@lib": [
+      "@lib/*": [
         "lib/*"
       ]
     }
