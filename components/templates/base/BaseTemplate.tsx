@@ -4,7 +4,7 @@ export interface BaseTemplateProps {
   sampleTextProp: string;
 }
 
-const BaseTemplate: React.FC<BaseTemplateProps> = ({ sampleTextProp }) => {
+const BaseTemplate = ({ sampleTextProp }: BaseTemplateProps) => {
   return <div className={styles.component}>{sampleTextProp}</div>;
 };
 
