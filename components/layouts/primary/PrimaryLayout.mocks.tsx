@@ -1,7 +1,7 @@
 import { PrimaryLayoutProps } from './PrimaryLayout';
 
 const base: PrimaryLayoutProps = {
-  sampleTextProp: 'Hello Next.js',
+  children: <h1>Example Page Content</h1>,
 };
 
 export const mockPrimaryLayoutProps = {
